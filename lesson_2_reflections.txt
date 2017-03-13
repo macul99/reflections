@@ -8,3 +8,35 @@ repository? What value do you think it offers?
 
 It is the middle man and provides some flexibililty to control what to 
 commit.
+
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+Only move those need to be commited to the staging area.
+
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+
+When you want to try new things and don't to mix up with master.
+
+
+How do the diagrams help you visualize the branch structure?
+
+It shows the structure and the visibililty of the whole structure.
+
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+The new head will point to both of the before merge branches, and need
+to deleted one of them. Use diagram is much easier to understand the 
+overall structure and their relationship.
+
+
+What are the pros and cons of Git¡¯s automatic merging vs. always doing 
+merges manually?
+
+Git merge is faster but got conflicts to solve. Manual is slow but may
+be more accurate.
